@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <title>Material</title>
+    <div class="container">
+        <ul id="slide-out" class="side-nav fixed">
+            <i class="fa fa-telegram" aria-hidden="true">Telegram</i>
+            <li class="tablinks1"><a  id="defaultOpen" onclick="openTab(event,'General')"><i class="fa fa-user-o" aria-hidden="true"></i>General Informations</a></li>
+            
+            <li class="tablinks2"><a  onclick="openTab(event,'Contact')"><i class="fa fa-address-book-o" aria-hidden="true"></i>Contact Information</a></li>
+
+            <li class="tablinks3" ><a onclick="openTab(event,'Addresses')"><i class="fa fa-home" aria-hidden="true"></i>Addresses</a></li>
+        </ul>
+    </div>
+</head>
+<body>
+
+  <div class="tabcontent" id="General">
+            <div class="col s12 m7">
+                    <h3 class="header">General Informations</h3>
+                    <div class="card horizontal">
+                    <div class="card-stacked">
+                        <div class="card-content">                      
+                        <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="input-field col s12">
+                                            <input id="email" type="email" class="validate">
+                                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                                            </div>
+                                     </div>
+                                     <div class="row">
+                                         <div class="col s12">
+                                                <input type="text" placeholder="Date" class="datepicker">
+                                         </div>
+                                     </div>
+                                </form>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+      </div>
+</div>
+  
+<div class="tabcontent" id="Contact">
+        <div class="col s12 m7">
+                <h3 class="header">Contact Informations</h3>
+                <div class="card horizontal">
+                <div class="card-stacked">
+                    <div class="card-content">                      
+                    <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                        </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col s12">
+                                            <input type="text" placeholder="Date" class="datepicker">
+                                     </div>
+                                 </div>
+                            </form>
+                        </div>
+                </div>
+                </div>
+            </div>
+  </div>
+</div>
+
+<div class="tabcontent" id="Addresses">
+        <div class="col s12 m7">
+                <h3 class="header">Address Informations</h3>
+                <div class="card horizontal">
+                <div class="card-stacked">
+                    <div class="card-content">                      
+                    <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                        </div>
+                                 </div>
+                                 <div class="row">
+                                     <div class="col s12">
+                                            <input type="text" placeholder="Date" class="datepicker">
+                                     </div>
+                                 </div>
+                            </form>
+                        </div>
+                </div>
+                </div>
+            </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<!-- <script src="./navbar-fixed.js"></script> -->
+<script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+* {box-sizing: border-box}
+
+.title  {
+    background: #f3e5f5 ;
+    width: 100%;
+    margin-left: 300px;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+}
+
+/* Side-nav */
+
+.side-nav{
+    background: #26a69a !important;
+    -webkit-box-shadow: 7px 0px 35px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 0px 35px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 0px 35px -4px rgba(0,0,0,0.75);
+    font-family: Courier New, Courier, monospace;
+}
+
+.side-nav .fa-telegram {
+    font-size: 3.5rem;
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #020b1a;
+}
+.side-nav li a:hover{
+ border-left: 2px solid #020b1a;
+ cursor: pointer;
+}
+.active {
+    border-left: 2px solid #020b1a;
+}
+
+.side-nav li>a{
+    margin-top: 20px;
+}
+/* Main Container */
+.tabcontent{
+    padding-left: 400px;
+    margin-top: 100px;
+    padding-right: 100px;
+}
