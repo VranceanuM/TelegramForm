@@ -47,9 +47,27 @@ header, main, footer {
 .side-nav li>a{
     margin-top: 20px;
 }
+.container-nav{
+  position: fixed;
+}
+nav{
+  display: none;
+  background: #26a69a;
+}
 /* Main Container */
 .tabcontent{
     padding-left: 400px;
     margin-top: 100px;
     padding-right: 100px;
+}
+@media screen and (max-width:991px){
+  .tabcontent{
+    padding-left: 0px;
+    margin-top: 120px;
+    padding-right: 100px;
+}
+nav{
+  display: block;
+
+}
 }

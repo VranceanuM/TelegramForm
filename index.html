@@ -6,21 +6,31 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
     <title>Material</title>
-    <div class="container">
+    <div class="container-nav">
         <ul id="slide-out" class="side-nav fixed">
             <i class="fa fa-telegram" aria-hidden="true">Telegram</i>
-            <li class="tablinks1"><a  id="defaultOpen" onclick="openTab(event,'General')"><i class="fa fa-user-o" aria-hidden="true"></i>General Informations</a></li>
+            <li class="tablinks"><a  id="defaultOpen" onclick="openTab(event,'General')"><i class="fa fa-user-o" aria-hidden="true"></i>General Informations</a></li>
             
-            <li class="tablinks2"><a  onclick="openTab(event,'Contact')"><i class="fa fa-address-book-o" aria-hidden="true"></i>Contact Information</a></li>
+            <li class="tablinks"><a  onclick="openTab(event,'Contact')"><i class="fa fa-address-book-o" aria-hidden="true"></i>Contact Information</a></li>
 
-            <li class="tablinks3" ><a onclick="openTab(event,'Addresses')"><i class="fa fa-home" aria-hidden="true"></i>Addresses</a></li>
+            <li class="tablinks" ><a onclick="openTab(event,'Addresses')"><i class="fa fa-home" aria-hidden="true"></i>Addresses</a></li>
         </ul>
     </div>
 </head>
-<body>
+<nav class="nav">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile">
+          <li class="tablinks"><a  id="defaultOpen" onclick="openTab(event,'General')"><i class="fa fa-user-o" aria-hidden="true"></i>General Informations</a></li>
+          
+          <li class="tablinks"><a  onclick="openTab(event,'Contact')"><i class="fa fa-address-book-o" aria-hidden="true"></i>Contact Information</a></li>
 
+          <li class="tablinks" ><a onclick="openTab(event,'Addresses')"><i class="fa fa-home" aria-hidden="true"></i>Addresses</a></li>
+      </ul>
+    </div>
+  </nav>
+<body>
   <div class="tabcontent" id="General">
-            <div class="col s12 m7">
+            <div class="col s12 m12">
                     <h3 class="header">General Informations</h3>
                     <div class="card horizontal">
                     <div class="card-stacked">
@@ -51,9 +61,10 @@
                 </div>
       </div>
 </div>
+
   
 <div class="tabcontent" id="Contact">
-        <div class="col s12 m7">
+        <div class="col s12 ">
                 <h3 class="header">Contact Informations</h3>
                 <div class="card horizontal">
                 <div class="card-stacked">
@@ -86,7 +97,7 @@
 </div>
 
 <div class="tabcontent" id="Addresses">
-        <div class="col s12 m7">
+        <div class="col s12">
                 <h3 class="header">Address Informations</h3>
                 <div class="card horizontal">
                 <div class="card-stacked">
