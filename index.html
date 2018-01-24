@@ -29,6 +29,7 @@
     </div>
   </nav>
 <body>
+    <!-- General-Info -->
   <div class="tabcontent" id="General">
             <div class="col s12 m12">
                     <h3 class="header">General Informations</h3>
@@ -39,19 +40,18 @@
                                 <form class="col s12">
                                     <div class="row">
                                         <div class="input-field col s12">
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                            <input  id="first_name" placeholder="Fist Name" type="text" class="validate">
+                                            
                                         </div>
                                     </div>
                                     <div class="row">
                                             <div class="input-field col s12">
-                                            <input id="email" type="email" class="validate">
-                                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                                                <input id="last_name" placeholder="Last Name" type="text" class="validate">
                                             </div>
                                      </div>
                                      <div class="row">
                                          <div class="col s12">
-                                                <input type="text" placeholder="Date" class="datepicker">
+                                                <input type="text" placeholder="Date of Birth" class="datepicker">
                                          </div>
                                      </div>
                                 </form>
@@ -62,39 +62,38 @@
       </div>
 </div>
 
-  
+  <!-- Contact-Info -->
 <div class="tabcontent" id="Contact">
         <div class="col s12 ">
                 <h3 class="header">Contact Informations</h3>
                 <div class="card horizontal">
                 <div class="card-stacked">
                     <div class="card-content">                      
-                    <div class="row">
-                            <form class="col s12">
-                                <div class="row">
-                                    <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email" data-error="wrong" data-success="right">Email</label>
-                                    </div>
-                                </div>
+                    
+                            
                                 <div class="row">
                                         <div class="input-field col s12">
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email" data-error="wrong" data-success="right">Email</label>
-                                        </div>
+                                        <input id="email" type="email" placeholder="Email" class="validate">
+                                        <a class="waves-effect waves-light btn">Add Email</a>
+                                    </div>
                                  </div>
                                  <div class="row">
-                                     <div class="col s12">
-                                            <input type="text" placeholder="Date" class="datepicker">
-                                     </div>
+                                     
+                                         <div class="input-field col s12">
+                                                <input id="icon_telephone" placeholder="Phone" type="number" class="validate">
+                                                <a class="waves-effect waves-light btn">Add Phone</a>
+                                            </div> 
+                                    
                                  </div>
                             </form>
-                        </div>
+                       
                 </div>
                 </div>
             </div>
   </div>
 </div>
+
+<!-- Adresses-Info -->
 
 <div class="tabcontent" id="Addresses">
         <div class="col s12">
@@ -106,23 +105,22 @@
                             <form class="col s12">
                                 <div class="row">
                                     <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                                            <input  id="street" placeholder="Street" type="text" class="validate">
                                     </div>
                                 </div>
                                 <div class="row">
                                         <div class="input-field col s12">
-                                        <input id="email" type="email" class="validate">
-                                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                                                <input  id="city" placeholder="City" type="text" class="validate">
                                         </div>
                                  </div>
                                  <div class="row">
                                      <div class="col s12">
-                                            <input type="text" placeholder="Date" class="datepicker">
+                                            <input  id="state" placeholder="State" type="text" class="validate">
                                      </div>
                                  </div>
                             </form>
                         </div>
+                        <a class="waves-effect waves-light btn">Add Address</a>
                 </div>
                 </div>
             </div>
@@ -130,7 +128,6 @@
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<!-- <script src="./navbar-fixed.js"></script> -->
 <script src="./main.js"></script>
 </body>
 </html>
